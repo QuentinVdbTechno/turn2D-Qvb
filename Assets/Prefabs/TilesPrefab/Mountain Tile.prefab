@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &785933927499971340
+--- !u!1001 &5868731327174463897
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -50,15 +50,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5326365703813010889, guid: 8d468f84437531245b890ec4d889fd26, type: 3}
       propertyPath: m_Name
-      value: Grass Tile
-      objectReference: {fileID: 0}
-    - target: {fileID: 5326365703813010889, guid: 8d468f84437531245b890ec4d889fd26, type: 3}
-      propertyPath: m_IsActive
-      value: 1
+      value: Mountain Tile
       objectReference: {fileID: 0}
     - target: {fileID: 7825998680489721681, guid: 8d468f84437531245b890ec4d889fd26, type: 3}
-      propertyPath: m_Color.a
-      value: 1
+      propertyPath: m_Color.b
+      value: 0.2552065
+      objectReference: {fileID: 0}
+    - target: {fileID: 7825998680489721681, guid: 8d468f84437531245b890ec4d889fd26, type: 3}
+      propertyPath: m_Color.g
+      value: 0.3067096
+      objectReference: {fileID: 0}
+    - target: {fileID: 7825998680489721681, guid: 8d468f84437531245b890ec4d889fd26, type: 3}
+      propertyPath: m_Color.r
+      value: 0.3490566
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -66,36 +70,34 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 5326365703813010889, guid: 8d468f84437531245b890ec4d889fd26, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2432341727918278913}
+      addedObject: {fileID: 5417746288549659524}
   m_SourcePrefab: {fileID: 100100000, guid: 8d468f84437531245b890ec4d889fd26, type: 3}
---- !u!1 &4828773444194217669 stripped
+--- !u!1 &1772977272092476496 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5326365703813010889, guid: 8d468f84437531245b890ec4d889fd26, type: 3}
-  m_PrefabInstance: {fileID: 785933927499971340}
+  m_PrefabInstance: {fileID: 5868731327174463897}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2432341727918278913
+--- !u!114 &5417746288549659524
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4828773444194217669}
+  m_GameObject: {fileID: 1772977272092476496}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76d42bc630431104982064346c7f68ed, type: 3}
+  m_Script: {fileID: 11500000, guid: 8899313b757f92449aa8dc851060c002, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _baseColor: {r: 0.4392157, g: 0.7411765, b: 0.36862746, a: 1}
-  _offsetColor: {r: 0.29525974, g: 0.5283019, b: 0.24172305, a: 1}
-  _renderer: {fileID: 7382449720705401949}
-  _highlight: {fileID: 8649210698555063427}
---- !u!212 &7382449720705401949 stripped
-SpriteRenderer:
-  m_CorrespondingSourceObject: {fileID: 7825998680489721681, guid: 8d468f84437531245b890ec4d889fd26, type: 3}
-  m_PrefabInstance: {fileID: 785933927499971340}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &8649210698555063427 stripped
+  _renderer: {fileID: 4461488720003149512}
+  _highlight: {fileID: 2563100127392765462}
+--- !u!1 &2563100127392765462 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8277644634754238351, guid: 8d468f84437531245b890ec4d889fd26, type: 3}
-  m_PrefabInstance: {fileID: 785933927499971340}
+  m_PrefabInstance: {fileID: 5868731327174463897}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &4461488720003149512 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 7825998680489721681, guid: 8d468f84437531245b890ec4d889fd26, type: 3}
+  m_PrefabInstance: {fileID: 5868731327174463897}
   m_PrefabAsset: {fileID: 0}

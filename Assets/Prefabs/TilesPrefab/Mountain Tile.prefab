@@ -70,14 +70,14 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 5326365703813010889, guid: 8d468f84437531245b890ec4d889fd26, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 5417746288549659524}
+      addedObject: {fileID: 743844646268910631}
   m_SourcePrefab: {fileID: 100100000, guid: 8d468f84437531245b890ec4d889fd26, type: 3}
 --- !u!1 &1772977272092476496 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5326365703813010889, guid: 8d468f84437531245b890ec4d889fd26, type: 3}
   m_PrefabInstance: {fileID: 5868731327174463897}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &5417746288549659524
+--- !u!114 &743844646268910631
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -89,8 +89,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8899313b757f92449aa8dc851060c002, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TileName: Mountain
   _renderer: {fileID: 4461488720003149512}
   _highlight: {fileID: 2563100127392765462}
+  _isWalkable: 0
+  OccupiedUnit: {fileID: 0}
 --- !u!1 &2563100127392765462 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8277644634754238351, guid: 8d468f84437531245b890ec4d889fd26, type: 3}

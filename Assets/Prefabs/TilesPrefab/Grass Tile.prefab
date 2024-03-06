@@ -60,20 +60,32 @@ PrefabInstance:
       propertyPath: m_Color.a
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7825998680489721681, guid: 8d468f84437531245b890ec4d889fd26, type: 3}
+      propertyPath: m_Color.b
+      value: 0.31287822
+      objectReference: {fileID: 0}
+    - target: {fileID: 7825998680489721681, guid: 8d468f84437531245b890ec4d889fd26, type: 3}
+      propertyPath: m_Color.g
+      value: 0.8396226
+      objectReference: {fileID: 0}
+    - target: {fileID: 7825998680489721681, guid: 8d468f84437531245b890ec4d889fd26, type: 3}
+      propertyPath: m_Color.r
+      value: 0.36614418
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 5326365703813010889, guid: 8d468f84437531245b890ec4d889fd26, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2432341727918278913}
+      addedObject: {fileID: 7629159621195725499}
   m_SourcePrefab: {fileID: 100100000, guid: 8d468f84437531245b890ec4d889fd26, type: 3}
 --- !u!1 &4828773444194217669 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5326365703813010889, guid: 8d468f84437531245b890ec4d889fd26, type: 3}
   m_PrefabInstance: {fileID: 785933927499971340}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2432341727918278913
+--- !u!114 &7629159621195725499
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -85,10 +97,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76d42bc630431104982064346c7f68ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _baseColor: {r: 0.4392157, g: 0.7411765, b: 0.36862746, a: 1}
-  _offsetColor: {r: 0.29525974, g: 0.5283019, b: 0.24172305, a: 1}
+  TileName: Grasslands
   _renderer: {fileID: 7382449720705401949}
   _highlight: {fileID: 8649210698555063427}
+  _isWalkable: 1
+  OccupiedUnit: {fileID: 0}
+  _baseColor: {r: 0.24088962, g: 0.735849, b: 0.13536847, a: 1}
+  _offsetColor: {r: 0.19420533, g: 0.3962264, b: 0.16634032, a: 1}
 --- !u!212 &7382449720705401949 stripped
 SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 7825998680489721681, guid: 8d468f84437531245b890ec4d889fd26, type: 3}
